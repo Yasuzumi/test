@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTO struts Configuration 2.3//EN"
+"http://struts.apche.org/dtds/struts-2.3.dtd">
+<struts>
+     <constant name="struts.devmode"value="true"/>
+     <package name="com.internousdev.login.action"extends="struts-default>
+
+     <action name="LoginAction"class="com.internoussev.login.action.loginAction"
+     methon="execute">
+             <sesult name="success">loginSuccess.jsp</sesult>
+             <result name="error">loginerror.jsp</result>
+     </action>
+
+
+     </package>
+
+
+ </struts>
