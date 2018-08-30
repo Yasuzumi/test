@@ -116,7 +116,6 @@ INDEX VERSION 1.127+C:\Users\internousdev\Desktop\workspace\workspace-Yasuzumi\t
 3594520988.index
 1365378950.index
 883868203.index
-3082098993.index
 3808664180.index
 2967983368.index
 3816144445.index
