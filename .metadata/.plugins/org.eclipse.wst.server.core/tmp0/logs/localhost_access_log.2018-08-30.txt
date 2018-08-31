@@ -90,3 +90,11 @@
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:47:45 +0900] "POST /ecsite/ItemCreateAction.action HTTP/1.1" 200 2563
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:47:51 +0900] "POST /ecsite/ItemUserCreateConfirmAction.action HTTP/1.1" 200 2480
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:48:48 +0900] "POST /ecsite/itemCreateCompleteAction HTTP/1.1" 200 3461
+127.0.0.1 - - [30/Aug/2018:16:42:21 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:42:23 +0900] "GET /ecsite/ HTTP/1.1" 200 1892
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:42:50 +0900] "POST /ecsite/HomeAction.action;jsessionid=154C36B3E6E53538886A091F6289A780 HTTP/1.1" 200 2490
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:42:52 +0900] "GET /ecsite/GoLoginAction.action HTTP/1.1" 200 2122
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:43:00 +0900] "POST /ecsite/LoginKanriAction.action HTTP/1.1" 200 1987
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:43:01 +0900] "POST /ecsite/ItemCreateAction.action HTTP/1.1" 200 2563
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:43:07 +0900] "POST /ecsite/ItemUserCreateConfirmAction.action HTTP/1.1" 200 2480
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:16:43:08 +0900] "POST /ecsite/itemCreateCompleteAction HTTP/1.1" 200 3461
