@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+/* productDetails.jsp */
+
+/* 商品詳細表示 */
+
+table.vertical-list-table-mini {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.0rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-bottom : 20px;
+}
+
+table.vertical-list-table-mini th {
+	width: 35%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: #BABABA;
+	color:#ffffff;
+}
+
+table.vertical-list-table-mini td {
+	width: 65%;
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #F4F4F4;
+/* 	color:#ffffff; */
+}
+
+.2column-container {
+	width : 	90%;
+	margin-bottom:30px;
+
+}
+
+/* .box{ */
+/* 	width : 90%; */
+/* 	display : block; */
+/* 	margin-top : 5px; */
+/* 	margin-bottom : 5px; */
+/* 	margin-left : 3%; */
+/* 	float : left; */
+
+/* } */
+
+.right {
+	float : left;
+	width : 40vw;
+	height : 450px;
+	margin-top:40px;
+	margin-bottom : 40px;
+	text-align: center;
+}
+
+.left {
+	float:left;
+	width : 40vw;
+	height : 25vw;
+	margin-top:40px;
+	margin-bottom : 40px;
+	text-align: center;
+}
+/* 詳細画像 */
+.item-image-box-320 {
+	width : 420px;
+	height : 420px;
+}
+
+.submit_btn_box{
+	position:relative;
+	width : 45%;
+	display : block;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	margin-left : 13%;
+	padding-left : 42%;
+	float : left;
+}
+
+/* おすすめ3 */
+.product-details-recommend-box {
+	margin-top: 7%;
+	clear: both;
+/* 	margin-left : 200px; */
+	text-align:center;
+}
+
+.recommend-box{
+	margin-top:60px;
+	float : left;
+	width : 33.3%;
+	height : 250px;
+}
+
+.item-image-box-100 {
+	width : 14vw;
+	height : 14vw;
+}
+
+
+
+/* productList.jsp */
+
+#hit{
+	display: inline-block;
+	width: 310px;
+	text-align: center;
+	font-size: 16.5px;
+}
+
+.pager{
+	padding-bottom:50px;
+	padding-top : 50px;
+	text-align : center;
+	font-size : 18px;
+	clear : both;
+}
+
+.info {
+	margin-left:50px;
+}
+
+
+/* 商品一覧エリアの背景 */
+#product-list {
+	background : #ffffff;
+}
+
+/* クリアフィックス */
+#item-list ul::after {
+	content : "";
+	clear : both;
+	display : block;
+}
+
+/* 商品一覧リストの設定 */
+#product-list ul li {
+	display : block;
+	float : left;
+	width : 85%;
+	height : 100%;
+	list-style-type : none;
+/*	background : #00cccc; */
+	text-align : center;
+}
+
+.product-list-box {
+	display:inline-block;
+	float : left;
+	width:33.3%;
+	height: 330px;
+	text-align:center;
+}
+
+/* 一覧画像 */
+.item-image-box-200 {
+	width : 220px;
+	height : 220px;
+		background-color:#f4f4f4;
+}
+
+.product{
+		background-color:#f4f4f4;
+}

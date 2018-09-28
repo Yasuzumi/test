@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#footer {
+
+	position : fixed;
+	text-align : center;
+	bottom : 0;
+	clear : both;
+	left : 0;
+	z-index : 10;
+	width : 100%;
+	padding : 10px;
+	color : #fff;
+	font-family: 'Vollkorn', serif;
+	background-color : rgba(0,0,0,0.5);
+}

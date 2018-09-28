@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+table.vertical-list-table {
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: Left;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+
+table.vertical-list-table th {
+	width: 20%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: top;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #fff;
+	background: #BABABA;
+	color:#000000;
+}
+
+table.vertical-list-table td {
+	margin-top:-25.2px;
+	width: 75%;
+	padding: 1px;
+	vertical-align: top;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+
+
+table.vertical-list-table, th, td {
+
+	margin : 1.5%;
+	border-collapse: collapse;
+
+	line-height: 1.5;
+}
+
+table, tbody, tr, th, td {
+display: block;
+}
+
+.submit_btn_box{
+	margin-left:1.5%;
+}
+
+
+
+td{
+	background-color:#f4f4f4;
+}
+
+
+.error{
+	display:inline-block;
+	font-size:0.7rem;
+	color:red;
+	margin-top:4%;
+}
+
+.error-message {
+	color : red;
+	text-align:center;
+}
+
+p{
+	margin-left:50px;
+}

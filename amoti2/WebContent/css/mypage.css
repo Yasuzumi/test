@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+#contents {
+	padding-top : 70px;
+	margin-top : 50px;
+	margin : 0 auto;
+	width : 100%;
+	height : auto;
+	padding-bottom : 10px;
+	margin-bottom : 100px;
+	overflow : auto; /* コンテンツの表示を自動に設定（スクロール）*/
+}
+
+table.vertical-list-table {
+	width: 90%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+table.vertical-list-table th {
+	width: 25%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: #BABABA;
+	color: #ffffff;
+}
+
+table.vertical-list-table td {
+	width: 65%;
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f4f4f4;
+}
+
+table.vertical-list-table, th, td {
+	margin : 3%;
+	width : 90%;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	line-height: 1.5;
+}
+
+.submit_btn_box{
+	padding-left : 3%;
+}
