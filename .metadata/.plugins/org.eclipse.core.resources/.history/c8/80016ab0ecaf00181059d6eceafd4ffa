@@ -1,0 +1,5 @@
+package com.internousdev.Yasuzumi1.action;
+
+public class CreateUserConfirmAction {
+
+}

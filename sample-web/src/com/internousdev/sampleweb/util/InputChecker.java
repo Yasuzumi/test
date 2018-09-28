@@ -81,10 +81,10 @@ public class InputChecker {
 				}
 
 				if(availableKatakana){
-					regularExpression +="ァ-ヺ";
+					regularExpression +="ァ-ン";
 					characterTypeList.add("カタカナ");
 				}else{
-					errorExpression +="ァ-ヺ";
+					errorExpression +="ァ-ン";
 				}
 
 				if(availableFullWidthSymbols){
